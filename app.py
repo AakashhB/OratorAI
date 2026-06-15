@@ -44,7 +44,9 @@ st.set_page_config(
     page_icon="🎤"
 )
 
+
 st.title("🎤 AI Public Speaking Coach")
+os.makedirs("uploads", exist_ok=True)
 
 uploaded_file = st.file_uploader(
     "Upload your speech",
