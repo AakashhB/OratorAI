@@ -3,4 +3,7 @@ venv/
 uploads/
 __pycache__/
 *.pyc
-speeches.db
+
+ffmpeg.exe
+ffprobe.exe
+ffmpeg-8.1.1-essentials_build/
